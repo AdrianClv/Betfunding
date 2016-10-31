@@ -97,7 +97,7 @@ contract Betfunding {
 		newProject.name = name;
 		newProject.desc = desc;
 
-        NewProject(numProjects, msg.sender);
+    NewProject(numProjects, msg.sender);
 		numProjects++;
 	}
 
